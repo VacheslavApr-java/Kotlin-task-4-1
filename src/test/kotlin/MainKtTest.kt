@@ -109,7 +109,7 @@ class MainKtTest {
     fun resultCommisionMasterCardMaestro_more_150_000() {
         val amount = 1_000
         val maxAmountInMonth = 0
-        val maxAmountInDay = 100_000
+        val maxAmountInDay = 200_000
         val expected = "Превышен максимальный лимит суммы перевода ($maxLimitInDay руб.) в день!"
 
         val result = resultCommisionMasterCardMaestro(
